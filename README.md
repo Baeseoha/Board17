@@ -15,8 +15,8 @@
 
 ``` html
 // 수정 
-location.href = "view.do?uid=${uid}"; =>  
-location.href = "view.do?uid=${param.uid}"; 
+location.href = "view.do?uid=${uid}";   
+=>location.href = "view.do?uid=${param.uid}"; 
 ``` 
 
 ## 2. '글 삭제' 시 내용이 안보이는 상황 발생 
